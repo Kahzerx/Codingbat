@@ -1,4 +1,4 @@
-public static int sumDigits(String str){
+public int sumDigits(String str){
     int contador = 0;
 
     for (int i = 0; i < str.length();i++){//isDigit detecta si lo que analizamos es un numero o no
