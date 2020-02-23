@@ -4,6 +4,6 @@ public boolean no14(int[] nums) {
 
     for (int resultado : nums)
         if (resultado == 4) contador4++;
-        else if (res == 1) contador1++;
+        else if (resultado == 1) contador1++;
     return !(contador1 > 0 && contador4 > 0);
 }
