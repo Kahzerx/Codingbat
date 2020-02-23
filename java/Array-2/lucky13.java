@@ -1,0 +1,1 @@
+public boolean lucky13(int[] nums) { for (int i : nums) if (i == 3 || i == 1) return false; return true; } //;D
